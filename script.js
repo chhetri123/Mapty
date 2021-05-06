@@ -266,14 +266,9 @@ class App {
     workout.style.display = 'none';
 
     // fins id and get data
-    const {
-      distance,
-      duration,
-      cadence,
-      elevationGain,
-      coords,
-      type,
-    } = this._findId();
+    const item = this._findId(data.dataset.id);
+
+    const { distance, duration, cadence, elevationGain, coords, type } = item;
 
     // re initial previous data foem editing
     inputDistance.value = distance;
