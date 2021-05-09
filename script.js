@@ -1,5 +1,6 @@
-'use strict';
-
+// import './leaflet/dist/leaflet';
+// import './leaflet.markercluster/dist/leaflet.markercluster';
+// import './leaflet.gridlayer.googlemutant/Leaflet.GoogleMutant';
 const form = document.querySelector('.form');
 const error = document.querySelector('.error');
 const containerWorkouts = document.querySelector('.workouts');
